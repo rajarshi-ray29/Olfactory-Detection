@@ -14,7 +14,7 @@ testOdors = np.array(pickle.load(rf));
 rf.close();
 nOdors = len(trainingOdors); 
 nTestPerOdor = len(testOdors)/nOdors;  
-#print(trainingOdors.shape)
+print(trainingOdors.shape)
 print("Number of odors to train = " + str(len(trainingOdors))); 
 print("Number of odors to test = " + str(len(testOdors))); 
 
